@@ -14,10 +14,7 @@ public class Libro {
     private Genero genero;
     private static int contadorLibros = 0;
     private final int id;
-    
-    
-    //No puede modificarse el atributo id porque fue declarado con la palabra final la cual solo se asigna una vez y asi cada libro tenga un identificador fijo y que sea unico
-    // Una vez una variable final es asignada no se puede modificar, si se intenta java da un error de compilacion
+   
     
     
     
